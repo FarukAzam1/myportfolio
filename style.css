@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:#273444 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    background-color: #734AF6;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.left {
+    font-size: 1.5rem;
+    color:white;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+    
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    
+    font-size: 3rem;
+    font-weight: 700;
+    
+    color:black
+
+}
+
+.rightsection img {
+    width: 60%;
+    margin: 10px 0;
+  
+}
+.rightsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    color: #734af6;
+}
+
+#element {
+    color:#734af6
+}
+
+main hr {
+    border: 0;
+    background: #734af6;
+    height: 2px;
+    margin: 60px 50px;
+}
+
+.secondsection {
+    
+    max-width: 90vw;
+    margin: auto;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.thirdsection {
+    max-width: 90vw;
+    margin: auto;
+    height: 400px;
+    
+}
+
+.thirdsection h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.thirdsection .box {
+    background: white;
+    width: 90vw;
+    height: 2px;
+    margin: 130px 0;
+    display: flex;
+    
+}
+
+.thirdsection .vertical {
+
+    background-color: white;
+    margin: 0 135px;
+}
+
+.image1 {
+   width: 100px;
+}
+.skilldiv{
+    display: flex;
+    background-color: #273444;
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+}
+.mainskillsdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.verticaltile {
+    position: relative;
+    
+    top: -30px;
+    
+    width: 150px;
+    color: #273444;
+}
+
+.verticaltitleinfo {
+    position: relative;
+    top: -11px;
+    margin-left:80px;
+    font-size: 9px;
+    width: 150px;
+    color: #273444;
+}
+.contacthead{
+    color:#273444;
+
+}
+.footerid{
+    padding-left: 40px;
+    background-color: #273444;
+}
+footer {
+    
+    /* height: 200px; */
+}
+.descri{
+    font-size: 15px;
+    margin-left:50px;
+    color:white
+}
+.divinside{
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+footer h1 {
+    text-align: center;
+    color: #273444;
+    padding: 15px 100px;
+    
+}
+
+.footer {
+    display: flex;
+    
+    margin: 5px 100px;
+    justify-content: space-evenly;
+}
+
+.footer-first .wp {
+    text-align: initial;
+    color: #273444;
+    
+}
+
+.footer-second .email {
+    text-align: initial;
+    color: #273444;
+}
+
+.footer-third .phn {
+    text-align: initial;
+    color: #273444;
+}
+
+.footer-first .ad1 {
+    width: 60px;
+    position: initial;
+    left: 140px;
+}
+
+.footer-second .em1 {
+    width: 60px;
+    position: initial;
+    left: 140px;
+}
+
+.footer-third .ph1 {
+    width: 60px;
+    position: initial;
+    left: 140px;
+}
+.lorem{
+    font-size: 15px;
+    color: rgb(0, 0, 1);
+}
+.copyright{
+    font-size: 10px;
+    color: black;
+    text-align: center;
+}
+.myprofilepic{
+    border-radius: 50%;
+    border: 5px solid #273444;
+}
+.aboutmetitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: #273444;
+}
+.projectbtn{
+    padding: 10px;
+    border: none;
+    background-color: #734AF6;
+    color:white;
+    border-radius: 5px;
+    
+
+}
+.about{
+    color: #273444;
+}
+ 
+.socialMedia{
+    width: 40px;
+}
+.socialText{
+    
+}
+.footerDivMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    align-items: center;
+}
+.footer{
+    background-color: #273444;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
